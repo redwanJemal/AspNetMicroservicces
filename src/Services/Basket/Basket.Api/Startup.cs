@@ -42,7 +42,7 @@ namespace Basket.Api
                     cfg.Host(Configuration["EventBusSettings:HostAddress"]);
                 });
             });
-            //services.AddMassTransitHostedService();
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
